@@ -1,0 +1,215 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- -------font-awesome-------- -->
+    <script src="https://kit.fontawesome.com/a8c1d60f1e.js" crossorigin="anonymous"></script>
+    <!-- ///// main.js //// -->
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <!-- ------------header------------------------ -->
+    <header id="header">
+        <div class="container">
+            <nav class="flex-handle">
+                <div class="logo">
+                    <h2 class="logo-name">Ammar.</h2>
+                    <!-- <img src="images/logo.png" alt="logo image"> -->
+                </div>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fas fa-times"></i> -->
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>FrontEnd Developer</p>
+                <h1>Hi, Iam <span>Ammar </span><br>Khatab From Egypt</h1>
+            </div>
+        </div>
+    </header>
+    <!-- --------------------about---------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="img"></div>
+                    <!-- <img src="images/AMMAR4.jpg"> -->
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p class="about-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate obcaecati
+                        atque, recusandae sapiente quibusdam ullam corrupti placeat nostrum pariatur veritatis quaerat
+                        ea aliquid mollitia laboriosam exercitationem praesentium ducimus eos sunt.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="tabOpen('skills')">Skills</p>
+                        <p class="tab-links" onclick="tabOpen('Experience')">Experience</p>
+                        <p class="tab-links" onclick="tabOpen('Education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Html/Css</span><br>Developing web/App interfaces</li>
+                            <li><span>Bootstrap</span><br>I have experience in Bootstrap</li>
+                            <li><span>JavaScript</span><br>Iam deeper learner of JavaScript</li>
+                            <li><span>Json&Ajax</span><br>I have the experience of using Json & Ajax.</li>
+                            <li><span>Responsive</span><br>My Websites suits all Screen</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Experience">
+                        <ul>
+                            <li><span>A deeper understanding of HTML, CSS, and JavaScript</span><br>Able to use them to
+                                create
+                                more complex and sophisticated user interfaces and applications.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>Education </span><br>Faculity of computer science and Artificial Intelligence.
+                            </li>
+                            <li><span>University </span><br>Benha university</li>
+                            <li><span>Web Development</span><br>Html, Css, JavaScript, and Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------services--------------- -->
+    <div id="services">
+        <div class="container">
+            <h2 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro suscipit consectetur
+                            molestias.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro suscipit consectetur
+                            molestias.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro suscipit consectetur
+                            molestias.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- ----------portfolio------------ -->
+    <div id="Portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Work</h2>
+            <div class="portfolio-list">
+                <div>
+                    <img src="images/work-3.png" alt="">
+                    <div class="hover-cont">
+                        <h2 class="title">My First App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ullam.</p>
+                        <a href="https://ammarkh123.github.io/project-1/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/work-1.png" alt="">
+                    <div class="hover-cont">
+                        <h2 class="title">My Second App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ullam.</p>
+                        <a href="https://ammarkh123.github.io/project-template-2/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/work-3.png" alt="">
+                    <div class="hover-cont">
+                        <h2 class="title">Third App Template</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ullam.</p>
+                        <a href="https://ammarkh123.github.io/template-3/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/App picture1.jpg" alt="">
+                    <div class="hover-cont">
+                        <h2 class="title">Random hexa color App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ullam.</p>
+                        <a href="https://ammarkh123.github.io/javascript-random-colors/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/App1.jpg" alt="">
+                    <div class="hover-cont">
+                        <h2 class="title">To Do List App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ullam.</p>
+                        <a href="https://ammarkh123.github.io/To-Do-List-App/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/App4.jpg" alt="">
+                    <div class="hover-cont">
+                        <h2 class="title">Sales Management App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ullam.</p>
+                        <a href="https://ammarkh123.github.io/Project-Management-System/" target="_blank"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <button><a href="#">See More</a></button>
+        </div>
+    </div>
+    <!-- -------------contact---------------- -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h2 class="contact-title sub-title">Contact Me</h2>
+                    <p class="contact-email"><i class="fa-solid fa-paper-plane"></i>ammar2632001@gmail.com</p>
+                    <p class="contact-telephone"><i class="fa-solid fa-phone"></i>01063826803</p>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <a href="https://github.com/ammarkh123"><i class="fa-brands fa-github"></i></a>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <button><a href="my-cv.pdf" download>Download CV</a></button>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" action="post" mail-to="ammar2632001@gmail.com">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &COPY; Ammar. Made with by <i class="fa-solid fa-heart"></i> Ammar Khatab </p>
+        </div>
+    </div>
+</body>
+
+</html>
