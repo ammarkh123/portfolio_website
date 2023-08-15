@@ -38,7 +38,7 @@ body {
   margin-top: 10px;
   /* width: 100%; */
   height: 100vh;
-  background-image: url(/images/AMMAR5.jpg);
+  background-image: url(../images/AMMAR5.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -127,7 +127,7 @@ header nav li a {
 }
 
 .about-col-1 .img {
-  background-image: url(/images/AMMAR3.jpg);
+  background-image: url(../images/AMMAR3.jpg);
   height: 550px;
   width: 100%;
   border-radius: 15px;
