@@ -424,7 +424,8 @@ header nav li a {
   background-color: var(--white-black);
 }
 
-.copyright p i {
+.copyright p i,
+.copyright p span {
   color: var(--primary-color);
 }
 
