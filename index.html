@@ -207,8 +207,12 @@
             </div>
         </div>
         <div class="copyright">
-            <p>copyright &COPY; <span>2024 </span>Ammar. Made with by <i class="fa-solid fa-heart"></i> Ammar Khatab
+            <p>copyright &COPY; <span class="year"></span> Ammar. Made with by <i class="fa-solid fa-heart"></i>
+                Ammar Khatab
             </p>
+            <script>
+                document.querySelector(".copyright p .year").textContent = new Date().getFullYear();
+            </script>
         </div>
     </div>
 </body>
